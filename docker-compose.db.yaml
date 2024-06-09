@@ -10,7 +10,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=admin123
-      - POSTGRES_DB=postgres-django
+      - POSTGRES_DB=postgres-django-migrations
 
 networks:
   comm_network:
